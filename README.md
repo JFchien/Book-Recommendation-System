@@ -4,7 +4,7 @@ Haoyin Xu1*, Jo-fan Chien*, Dawei Li*, and Qin Li*
 Introduction and hypotheses<br>
 While the emergence of the internet provided access to tremendous digital information, it also led to
 a potential challenge to differentiate signicant information from trivial ones. Internet users often found
-themselves with too many choices yet with insucient information to decide. Search engines such as Google
+themselves with too many choices yet with insufficient information to decide. Search engines such as Google
 have partially solved this dilemma by facilitating the process of accessing relevant information, though lacking
 personalization. One example of this is when a person looks for some novels or movies, they could search
 online for recent publications but might not quickly nd one that interests them.
@@ -12,7 +12,7 @@ In this project, we aimed at constructing a recommendation system that specical
 down the selections to a few new books based on the prediction of their preference. A recommendation system
 is an information ltering system that nds the most vital information pieces according to the user's prole.
 This will be a benecial system for both users and the service providers because while it can reduce the cost
-of nding an ideal item, it could also improve the quality and eciency at the server end [1].
+of nding an ideal item, it could also improve the quality and efficiency at the server end [1].
 In this study, we showed the result of both collaborative ltering method and content-based ltering
 method. For collaborative ltering, we compared the non-parametric memory-based model with the para-
 metric dimensionality reduction model in their performance. We hypothesized that the dimensionality re-
