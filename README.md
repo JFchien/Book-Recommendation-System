@@ -33,7 +33,7 @@ Collaborative ltering<br>
 Collaborative ltering uses similar preferences towards items, specically books, with specic features to
 provide recommendations. In other words, the system provides recommendations to the users solely based
 on user-book interactions, specically ratings, instead of the content of the books. Given the user-book
-rating matrix Rmn, with m rows of individuals and n columns of different books, ratings can be used for
+rating matrix R_{mn}, with m rows of individuals and n columns of different books, ratings can be used for
 recommendation in two ways: recommend high-rating books of similar users(rows are similar: user similarity)
 or recommend books similar to the preferred ones(columns are similar: book similarity). Surprise [4] package
 in python was used to build the collaborative ltering system.
