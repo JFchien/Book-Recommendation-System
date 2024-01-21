@@ -1,8 +1,9 @@
 # Book-Recommendation-System
-Haoyin Xu1*, Jo-fan Chien*, Dawei Li*, and Qin Li*<br>
+Haoyin Xu1*, Jo-fan Chien*, Dawei Li*, and Qin Li*
+
 Introduction and hypotheses<br>
 While the emergence of the internet provided access to tremendous digital information, it also led to
-a potential challenge to dierentiate signicant information from trivial ones. Internet users often found
+a potential challenge to differentiate signicant information from trivial ones. Internet users often found
 themselves with too many choices yet with insucient information to decide. Search engines such as Google
 have partially solved this dilemma by facilitating the process of accessing relevant information, though lacking
 personalization. One example of this is when a person looks for some novels or movies, they could search
@@ -27,11 +28,12 @@ the link to the cover picture). To ensure statistical signicance, we drop any b
 ratings and users who rated less than 10 books. The nal dataset is with 10,491 users, 2,125 books and
 totally 1,149,780 ratings. For content-based ltering purposes, we also extract the titles from the dataset of
 book information.
+
 Collaborative ltering<br>
 Collaborative ltering uses similar preferences towards items, specically books, with specic features to
 provide recommendations. In other words, the system provides recommendations to the users solely based
 on user-book interactions, specically ratings, instead of the content of the books. Given the user-book
-rating matrix Rmn, with m rows of individuals and n columns of dierent books, ratings can be used for
+rating matrix Rmn, with m rows of individuals and n columns of different books, ratings can be used for
 recommendation in two ways: recommend high-rating books of similar users(rows are similar: user similarity)
 or recommend books similar to the preferred ones(columns are similar: book similarity). Surprise [4] package
 in python was used to build the collaborative ltering system.
